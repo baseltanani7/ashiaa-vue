@@ -1,0 +1,17 @@
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    height: 3500px;
+    overflow-x: hidden; 
+}
+body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+@font-face {
+    src: url(../assets/FilsonProBold.otf);
+    font-family:dubai;
+}
+@font-face {
+    src: url(../assets/FilsonProLight.otf);
+    font-family:dubailigth;
+}
